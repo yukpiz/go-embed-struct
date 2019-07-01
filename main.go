@@ -22,3 +22,7 @@ func main() {
 	log.Println(a.ID)
 	log.Println(a.Name)
 }
+
+func (*app) Hello() {
+	log.Println("hello")
+}
